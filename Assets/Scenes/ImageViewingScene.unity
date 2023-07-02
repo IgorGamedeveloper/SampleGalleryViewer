@@ -441,6 +441,7 @@ GameObject:
   - component: {fileID: 1983954412}
   - component: {fileID: 1983954411}
   - component: {fileID: 1983954413}
+  - component: {fileID: 1983954414}
   m_Layer: 0
   m_Name: SceneManager
   m_TagString: Untagged
@@ -492,3 +493,16 @@ MonoBehaviour:
   _loadSceneInStart: 0
   _nextSceneName: ImageViewerScene
   _previousSceneName: GalleryScene
+--- !u!114 &1983954414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983954410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38391947ab04c74da05d6ed9b6dc8d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _viewImage: {fileID: 1389604074}
