@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace IMG.WebImages
 {
-    public class WebImageDataContainer : MonoBehaviour
+    public class WebImageDataContainer : MonoBehaviour  //  упюмхкхые дюммшу бшцпсфеммнцн хгнапюфемхъ дкъ опедярюбкемхъ
     {
         public WebImageData Data { get; private set; }
 

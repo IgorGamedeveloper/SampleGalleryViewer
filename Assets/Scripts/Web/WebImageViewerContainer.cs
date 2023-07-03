@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace IMG.WebImages
 {
-    public static class WebImageViewerContainer
+    public static class WebImageViewerContainer //  упюмхкхые хгнапюфемхъ дкъ опедярюбкемхъ
     {
         public static WebImageData ViewWebImage { get; private set; }
 

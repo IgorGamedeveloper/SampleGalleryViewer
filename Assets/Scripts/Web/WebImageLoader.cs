@@ -5,7 +5,7 @@ using IMG.UI;
 
 namespace IMG.WebImages
 {
-    public class WebImageLoader : MonoBehaviour
+    public class WebImageLoader : MonoBehaviour //  «¿√–”«◊»  »«Œ¡–¿∆≈Õ»… »« ¬≈¡
     {
         private UnityWebRequest _request;
 
@@ -85,7 +85,6 @@ namespace IMG.WebImages
                 else
                 {
                     _currentTexture = ((DownloadHandlerTexture)_request.downloadHandler).texture;
-                    Debug.Log(_currentTexture.name);
 
                     WebImagesData[_currentImageIndex] = new WebImageData(_currentTexture, _currentImageURL);
 

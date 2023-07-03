@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace IMG.WebImages
 {
-    public class WebImageData
+    public class WebImageData // рхо дюммшу бшцпсфеммшу хгнапюфемхи
     {
         public Texture2D ImageTexture { get; private set; }
 

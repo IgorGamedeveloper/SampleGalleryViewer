@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace IMG.SceneManagement
 {
-    public class LoadingBarManager : MonoBehaviour
+    public class LoadingBarManager : MonoBehaviour  //  лемедфеп сопюбкемхъ онкняни гюцпсгйх х опнжемрмшл сйюгюрекел опнжеяяю гюцпсгйх яжемш
     {
         public static LoadingBarManager Instance { get; private set; }
 
@@ -32,6 +32,8 @@ namespace IMG.SceneManagement
                 Destroy(this);
             }
         }
+
+        //__________________________________________________________________    намнбкемхе ярюрсяю йнлонмемрнб онкняш гюцпсгйх:
 
         public void UpdateLoadingStatus(float loadingProgress)
         {

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 namespace IMG.UI
 {
-    public class ButtonsImagesManager : MonoBehaviour
+    public class ButtonsImagesManager : MonoBehaviour   //  лемедфеп хгнапюфемхи ймнонй
     {
         public static ButtonsImagesManager Instance;
 
@@ -26,6 +26,8 @@ namespace IMG.UI
                 Destroy(this);
             }
         }
+
+        //  ____________________________________________________________    ялемю дюммшу х хгнапюфемхъ нрдекэмни ймнойх:
 
         public void SetDataForButtonWithIndex(int index, WebImageData data)
         {
